@@ -36,3 +36,4 @@ root                    (project root folder)
 ## Authors
 ---
 * Brendan Jessen: jes20003@byui.edu
+* Matthew Young: dizzytmy@byui.edu
