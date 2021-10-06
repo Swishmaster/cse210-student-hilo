@@ -37,3 +37,4 @@ root                    (project root folder)
 ---
 * Brendan Jessen: jes20003@byui.edu
 * Marco Varela: var17010@byui.edu
+* Anna Merrill: mer20014@byui.edi
