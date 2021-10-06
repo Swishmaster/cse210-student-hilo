@@ -35,4 +35,4 @@ root                    (project root folder)
 
 ## Authors
 ---
-* TODO: Add your names and emails here
+* Brendan Jessen: jes20003@byui.edu
