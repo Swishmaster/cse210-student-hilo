@@ -1,1 +1,2 @@
-# TODO: Add entry point code here
+from game.player import Player
+
