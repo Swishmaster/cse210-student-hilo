@@ -7,11 +7,17 @@ class Dealer():
     card and saves that card.
     '''
     def __init__(self):
-        self.deck = [1,2,3,4,5,6,7,8,9,10,11,12,13]
+        self.deck = {"Ace": 1,"2": 2,"3": 3,"4": 4,"5": 5, "6": 6,"7": 7,"8": 8,"9": 9, "10": 10, "Jack": 11,"Queen": 12,"King": 13}
+        self.old_card = 0
+        self.card = 0
 
     def get_card(self):
-        return random.choice(self.deck)
+        a = random.choice(list(self.deck.items()))
+        self.old_card = a[1]
+        return a
 
     def new_card(self):
-        return random.choice(self.deck)
+        b = random.choice(list(self.deck.items()))
+        self.card = b[1]
+        return b
         
